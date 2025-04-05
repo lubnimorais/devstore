@@ -34,7 +34,8 @@
         "noConsole": "warn"
       },
       "correctness": {
-        "useExhaustiveDependencies": "warn"
+        "useExhaustiveDependencies": "warn",
+        "noUnusedVariables": "warn"
       }
     }
   },

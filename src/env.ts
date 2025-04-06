@@ -2,6 +2,7 @@ import { z as zod } from 'zod';
 
 const envSchema = zod.object({
   NEXT_PUBLIC_API_BASE_URL: zod.string().url(),
+  APP_URL: zod.string().url(),
 });
 
 const parseEnv = envSchema.safeParse(process.env);

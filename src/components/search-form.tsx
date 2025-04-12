@@ -1,6 +1,6 @@
 'use client';
 
-import type { FormEvent } from 'react';
+import { Suspense, type FormEvent } from 'react';
 
 import { useRouter, useSearchParams } from 'next/navigation';
 
